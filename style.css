@@ -1,0 +1,50 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+header {
+    background: #0066cc;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+main {
+    padding: 2rem;
+}
+.search {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.search input {
+    padding: 0.5rem;
+    width: 300px;
+}
+.search button {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+}
+.results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.results th, .results td {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: left;
+}
+.results th {
+    background: #e9ecef;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
